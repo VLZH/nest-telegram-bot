@@ -1,0 +1,27 @@
+{
+    "name": "nest-telegram-bot",
+    "version": "0.0.1",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "license": "MIT",
+    "author": "VLZH",
+    "repository": {
+        "url": "https://github.com/vlzh/nest-telegram-bot"
+    },
+    "description": "Nest.js wrapper for node-telegram-bot-api (not full)",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "@nestjs/common": "^6.10.7",
+        "@types/node-telegram-bot-api": "^0.40.0",
+        "@typescript-eslint/eslint-plugin-tslint": "^2.10.0",
+        "@typescript-eslint/parser": "^2.10.0",
+        "eslint": "^6.7.2",
+        "eslint-config-prettier": "^6.7.0",
+        "eslint-plugin-prettier": "^3.1.1"
+    },
+    "dependencies": {
+        "node-telegram-bot-api": "^0.40.0"
+    }
+}
