@@ -65,13 +65,6 @@
     "@types/tough-cookie" "*"
     form-data "^2.5.0"
 
-"@types/telebot@^1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@types/telebot/-/telebot-1.2.1.tgz#cef21b713f2f911e5dd049d0d21a3d10ca3874d5"
-  integrity sha512-kDcyQEkttAOS+XmUlg8nkrGHFN8dyjZxkQbgxawxqbnIeMvAkt6wDthxzZkSKB4OgJQEveOt6og6zCK/XCyXjA==
-  dependencies:
-    "@types/node" "*"
-
 "@types/tough-cookie@*":
   version "2.3.5"
   resolved "https://registry.yarnpkg.com/@types/tough-cookie/-/tough-cookie-2.3.5.tgz#9da44ed75571999b65c37b60c9b2b88db54c585d"
@@ -123,9 +116,9 @@ acorn-jsx@^5.1.0:
   integrity sha512-tMUqwBWfLFbJbizRmEcWSLw6HnFzfdJs2sOJEOwwtVPMoH/0Ay+E703oZz78VSXZiiDcZrQ5XKjPIUQixhmgVw==
 
 acorn@^7.1.0:
-  version "7.1.0"
-  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.0.tgz#949d36f2c292535da602283586c2477c57eb2d6c"
-  integrity sha512-kL5CuoXA/dgxlBbVrflsflzQ3PAas7RYZB52NOm/6839iVYJgKMJ3cQJD+t2i5+qFa8h3MDpEOJiS64E8JLnSQ==
+  version "7.1.1"
+  resolved "https://registry.yarnpkg.com/acorn/-/acorn-7.1.1.tgz#e35668de0b402f359de515c5482a1ab9f89a69bf"
+  integrity sha512-add7dgA5ppRPxCFJoAGfMDi7PIBXq1RtGo7BhbLaxwrXPOmw8gq48Y9ozT01hUKy9byMjlR20EJhu5zlkErEkg==
 
 ajv@^6.10.0, ajv@^6.10.2, ajv@^6.5.5:
   version "6.10.2"
@@ -1298,7 +1291,7 @@ request-promise@^4.2.2:
     stealthy-require "^1.1.1"
     tough-cookie "^2.3.3"
 
-request@^2.81.0, request@^2.83.0:
+request@^2.83.0:
   version "2.88.0"
   resolved "https://registry.yarnpkg.com/request/-/request-2.88.0.tgz#9c2fca4f7d35b592efe57c7f0a55e81052124fef"
   integrity sha512-NAqBSrijGLZdM0WZNsInLJpkJokL72XYjUpnB0iwsRgxh7dB6COrHnTBNwN0E+lHDAJzu7kLAkDeY08z2/A0hg==
@@ -1510,13 +1503,6 @@ table@^5.2.3:
     lodash "^4.17.14"
     slice-ansi "^2.1.0"
     string-width "^3.0.0"
-
-telebot@^1.2.6:
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/telebot/-/telebot-1.2.6.tgz#be13d8e68aae0b73a0a42a98c0a689d050973c45"
-  integrity sha512-ebrfQCymJEklFvrxpBm1sQGBexsZfsIc6T+u1fWacGeZu4SBKFyYC7RBnGk6SgNZwB4UT4s0d3OxTAbV9c0CHQ==
-  dependencies:
-    request "^2.81.0"
 
 text-table@^0.2.0:
   version "0.2.0"
